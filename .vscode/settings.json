@@ -1,0 +1,17 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+        "editor.insertSpaces": true,
+    },
+    "black-formatter.args": [
+        "--line-length=88",
+    ],
+    "flake8.args": [
+        "--ignore=E203,E401,E402,E704",
+        "--max-line-length=120"
+    ],
+    "notebook.formatOnSave.enabled": true,
+}
